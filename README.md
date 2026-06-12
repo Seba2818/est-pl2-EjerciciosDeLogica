@@ -20,10 +20,6 @@ Cuando encuentra un símbolo de cierre (), }, ]), verifica si la pila está vac�
 
 Al finalizar el recorrido, si la pila se encuentra vacía, la cadena es válida; de lo contrario, existen símbolos de apertura sin cerrar y la cadena es inválida.
 
-### Captura del ejercicio 
-![SignValidator](captura1.png)
-
-
 ##  Funcionamiento del Algoritmo
 Recorrer la cadena de izquierda a derecha.
 Insertar en la pila cada símbolo de apertura encontrado.
@@ -33,6 +29,9 @@ Extraer el elemento superior.
 Comprobar que corresponda al tipo correcto de apertura.
 Continuar hasta terminar la cadena.
 Si la pila queda vacía, la cadena es válida.
+
+### Captura del ejercicio 
+![SignValidator](captura1.png)
 
 ---
 ## Ejercicio 2
@@ -61,6 +60,7 @@ Un palíndromo es una palabra o texto que mantiene el mismo orden de caracteres 
 
 ---
 ## Salidas esperadas de cada ejercicio 
+![Resultados](captura4.png)
 
 
 

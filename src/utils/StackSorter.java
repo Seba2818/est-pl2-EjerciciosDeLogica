@@ -7,6 +7,7 @@ public class StackSorter {
     public void sortStack(Stack<Integer> stack) {
 
         Stack<Integer> aux = new Stack <Integer>();
+        
 
         while (!stack.isEmpty()) {
 
